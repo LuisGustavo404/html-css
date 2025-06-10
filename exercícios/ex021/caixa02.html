@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: -5px 4px 1px 1px black;
+        }
+
+        nav{
+            background-color: rgb(88, 86, 86);
+            padding: 3px;
+            box-shadow: -6px 4px 1px 1px rgba(0, 0, 0, 0.521);
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: rgb(123, 175, 221);
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(39, 101, 156);
+            color: aliceblue;
+
+        }
+
+        article#tecnologia{
+            background-color: rgb(240, 108, 108);
+        }
+        article#tecnologia > aside{
+            background-color: brown;
+            color: aliceblue;
+        }
+
+        article#politicas{
+            background-color: rgb(242, 145, 245);
+        }
+
+        article#politicas > aside{
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+
+        article#esportes{
+            background-color: rgb(255, 255, 211);
+        }
+
+        article#esportes > aside{
+            background-color: rgb(69, 226, 37);
+            color: aliceblue;
+        }
+
+        a.moreinfo{
+            display: block;
+            padding-top: 10px;
+            width: 70px;
+        }
+        a.moreinfo:hover{
+            color: rgb(255, 0, 0);
+        }
+
+        a.moreinfo:active{
+            color: aqua;
+
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: -5px 4px 1px 1px rgba(0, 0, 0, 0.432);
+            border-radius: 10px 0px;
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        /*
+        Fazendo uma bola flutuar
+        */
+        div#bola{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos gerais">
+            <h1>Esportes Políticas Tecnologia</h1>
+
+            <article id="esportes">
+                <h2>Carlos Ancelotti anunciado na seleção brasileira</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere dicta soluta accusamus modi aspernatur sequi voluptatum. Culpa, doloribus. Autem explicabo enim saepe ullam harum officia consequatur soluta molestias iusto?<a href="https://ge.globo.com/futebol/selecao-brasileira/noticia/2025/05/12/carlo-ancelotti-e-o-novo-tecnico-da-selecao-brasileira.ghtml" target="_blank" rel="external" class="moreinfo">Leia mais</a></P>
+            <aside>Fonte por Manuel Carneiro</aside>
+            </article>
+            <article id="politicas">
+                <h2>Guerra entre Rússia e Ucrania</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi provident, earum unde cum veniam officiis temporibus natus hic voluptatum amet doloribus rerum dicta molestias odio aut dolor impedit explicabo! <a href="#" class="moreinfo">Leia mais</a></p>
+                <aside>
+                    Fonte por Miguel Alencar
+                </aside>
+            </article>
+            <article id="tecnologia">
+                <h2>Carros voadores se tornam febre na China</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quasi veritatis ratione enim molestias aspernatur accusantium quam natus voluptatibus, deserunt fuga hic quidem eos consequuntur provident voluptatem temporibus similique! <a href="#" class="moreinfo">Leia mais</a></p>
+                <aside>
+                    Fonte por Jackie Chan
+                </aside>
+            </article>
+
+        </section>
+        <section id="notícias">
+
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis culpa autem tenetur harum itaque repellendus, voluptatum placeat consectetur? Nam odit dignissimos ut architecto provident tempore. Labore, velit! Voluptas, nemo ipsam. <a href="#" class="moreinfo">Leia mais</a></p>
+                <aside>
+                    <p>Artigo escrito por José da silva</p>
+                </aside>
+            </article>
+            <article></article>
+
+        </section>
+        
+        
+    </main>
+    
+    <footer>
+        <p>Desenvolvido pelo curso em vídeo</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

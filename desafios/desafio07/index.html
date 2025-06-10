@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Perceba como a imagem muda de tamanho de acordo com o tamanho da tela.</p>
+
+    
+    <picture>
+        <source media="(max-width: 450px)" srcset="solem400.jpg" type="image/jpg">
+        <source media="(max-width: 750px)" srcset="solem700.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="solem1000.jpg" type="image/jpg">
+        <img src="solem1500.jpg" alt="slimagem1500px">
+    </picture>
+</body>
+</html>

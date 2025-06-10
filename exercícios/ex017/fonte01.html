@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+        /* Para que essas configurações funcionem é necessário preencher essa linha. Usando google fonts*/
+        body{
+           font-family: 'work sans', Arial, Helvetica, sans-serif;
+          
+           font-size: 1em;
+           /*
+           Medidas Absolutas 
+           cm, mm, in, px(pixel), pt, pc
+           
+           Medidas Relativas
+           em(altura do M), ex, rem, vw, vh, %
+           */
+           /*
+           Para medidas do font-size é recomendado o uso do px(pixel) e em(altura do M maiúsculo) somente essas duas medidas.
+           Em fonte-size não pode ter espaço entre a medida e o número.
+           font-size: 1 px; errado
+           font-size: 1px; certo 
+           16px geralmente = 1em
+           16px é o tamanho natural de umá pagina, logo
+           2em = 32px
+           0.5em = 8px 
+           */
+          
+           font-weight: normal;
+           /* Pesos numéricos: 100, 200, 300, 400, 500, 600, 700, 800, 900 */ 
+           /* Pesos literais: lighter, normal, bold, bolder */
+           /* weight(peso), width(largura), height(altura) */
+
+           font-style: italic;
+           /* italic ou normal*/
+
+           text-decoration: underline;
+           /* Sublinhado */
+
+        }
+
+        h1{
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            /*Shorthand font
+
+            Vai condensar as configurações na seguinte ordem
+            
+            - font-style -> font-weight -> font-size -> font-family
+
+            no lugar de usar as 4 linhas de cima, podemos utlizar a propriedade shorthand, existem vários shorthands que você pode utilizar.
+            
+            Ficando assim: 
+            */
+            font: italic bolder 3em 'work sans', sans-serif;
+             
+        }
+
+        h2{
+            font: bold 2em 'work sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, dolorum aperiam veniam voluptatum atque nesciunt ab saepe quisquam molestias quibusdam minima possimus esse, maxime nemo? Laudantium autem accusantium numquam! Aliquid?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita quae nisi quisquam asperiores, adipisci in illo temporibus minima eligendi quo ea eveniet, aspernatur recusandae aperiam nobis repellendus iure sequi.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores libero placeat molestias ipsam, eaque quisquam et ratione accusamus aliquam quo ullam saepe tempore soluta accusantium mollitia. Cupiditate, minus dolore, amet fugiat beatae maiores tempora dolorem ipsa excepturi nisi, est omnis aspernatur? Fugit eos voluptatem consectetur cupiditate dolor eveniet, vitae, blanditiis doloremque asperiores maxime ratione corporis obcaecati assumenda architecto nihil quibusdam corrupti minus? Harum iure provident accusamus molestias laborum nobis nemo repudiandae? Ratione harum voluptate similique.</p>
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url('fontes/love larry ttf.ttf') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced typography)
+            - svg
+            */
+        }
+
+        @font-face {
+            font-family: 'Wild Love';
+            src: url('fontes/Wild Love.otf') format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'Wild Love', Helvetica, sans-serif;
+            font-size: 2em;
+            font-weight: normal;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae earum vel distinctio veniam voluptate id in, culpa voluptas. Minima maiores nostrum, non recusandae modi sint rem? Aliquam et hic odio!</p>
+    <h2>Code Geass</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quam reprehenderit enim, suscipit minus unde! Distinctio consectetur voluptas quisquam ratione blanditiis assumenda molestias delectus, omnis provident. Delectus similique at facilis.</p>
+</body>
+</html>

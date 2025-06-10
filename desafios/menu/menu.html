@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            background-color: #d5baff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            color: #1B0C33;
+        }
+
+        div{
+            text-align: left;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            border: 1px solid rgba(108, 6, 139, 0.842);
+        }
+
+        p:hover{
+            color: #ffffff;
+        }
+
+        p{
+            text-align: center;
+            color:#2e1b4b;
+            background-color: rgb(148, 109, 255);
+        }
+
+        div > ul{
+            display: none;
+            list-style: none;
+        }
+
+        div:hover > ul{
+            display: block;
+            text-decoration: underline;    
+        }
+
+        a{
+            color:  #fc00ef;    
+        }
+
+        .link:hover{
+            background-color: #c197ff;
+            color: aliceblue;
+        }
+
+        .link:active{
+            color:  #9700fc;
+        } 
+        
+        #geass{
+            color: rgb(255, 0, 0);
+        }
+
+        #eren{
+            color: black;
+        }
+        #assasin{
+            color: rgb(255, 255, 255);
+        }
+        #luffy{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Construindo um menu</h1>
+    <div><p>Openings de anime</p>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=G8CFuZ9MseQ&ab_channel=Crunchyroll" class="link" id="geass" target="_blank" rel="external">Code Geass</a></li>
+            <li><a href="https://www.youtube.com/watch?v=8OkpRK2_gVs&ab_channel=Crunchyroll" class="link" id="eren" target="_blank" rel="external" >Shingeki no Kyojin</a></li>
+            <li><a href="https://www.youtube.com/watch?v=04WuoQMhhxw&ab_channel=Crunchyroll" class="link" id="assasin" target="_blank" rel="external">Hell`s Paradise</a></li>
+            <li><a href="https://www.youtube.com/watch?v=YFbno_aPm0w&ab_channel=ONEPIECE%E5%85%AC%E5%BC%8FYouTube%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB" class="link" id="luffy" target="_blank" rel="external">One Piece</a></li>
+            <li><a href="https://www.youtube.com/watch?v=Bw-5Lka7gPE&ab_channel=Crunchyroll" class="link" id="mob" target="_blank" rel="external">Mob Psycho 100</a></li>
+        </ul>
+    </div>
+</body>
+</html>
