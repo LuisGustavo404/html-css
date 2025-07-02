@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Permanent+Marker&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+   height: 100vh; 
+   margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 225px;
+    padding: 50px 0px 0px 0px;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: "Passion One", sans-serif;
+    font-size: 6em;
+    margin:auto;
+}
+
+h1 > span{
+    font-size: 135px;
+
+}
+
+#phead{
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 0px;
+
+}
+
+#phead > strong{
+    font-style: bolder;
+}
+
+#phead > a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#phead > a:hover{
+    text-decoration: underline;
+}
+
+p{
+    font-family: "Sriracha", cursive;
+    font-size: 3em;
+}
+
+p.topbot{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+p.onlybot{
+    padding-bottom: 40px;
+}
+
+.wfundo{
+   padding: 30px; 
+}
+
+#image01{
+    background-image: url('imagens/background001.jpg');
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    box-shadow: inset 4px 5px 20px 3px rgba(0, 0, 0, 0.527);
+}
+
+#image01 > p{
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 550px;
+    height: 700px;
+    margin-left: 26px;
+    padding-left: 4px;
+    padding-top: 5px;
+    padding-bottom: -10px;
+    color: white;
+
+}
+
+#image02{
+    background-image: url('imagens/background002.jpg');
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    box-shadow: inset 4px 5px 20px 3px rgba(0, 0, 0, 0.527);
+}
+
+#image02 > p{
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 550px;
+    height: 700px;
+    margin-left: 26px;
+    padding-left: 4px;
+    padding-top: 5px;
+    padding-bottom: -10px;
+    color: white;
+
+}
+
+#rodape{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+}
+
+#rodape > a{
+    color: white;
+    text-decoration: none;
+}
+
+#rodape > a:hover{
+    text-decoration: underline;
+}
