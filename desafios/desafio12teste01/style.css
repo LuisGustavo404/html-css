@@ -28,18 +28,21 @@ h1{
     padding-top: 40px;
 }
 
-#img01{
+section{
     width: 90%;
     height: 400px;
     border: 2px solid black;
-    background-image: url(imagens/preguiça/oboi.webp);
     margin: auto;
     background-position: center;
     transition-duration: 1s;
     border-radius: 20px;
 }
 
+#img01{
+    background-image: url(imagens/retalhos/newretalhos.webp);
+}
+
 #img01:hover{
-    background-image: url(imagens/preguiça/apreguiça.jpg);
+    background-image: url(imagens/retalhos/oldretalhos.jpg);
     transition-duration: 1s;
 }
