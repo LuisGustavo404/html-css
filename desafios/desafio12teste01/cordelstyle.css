@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Permanent+Marker&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+
+    --fonte01: Verdana, 'Geneva', Tahoma, sans-serif;
+    --fonte02: 'Rubik', sans-serif; 
+    --fonte03: 'Passion One', sans-serif;
+    --fonte04: Arial, Helvetica, sans-serif;
+    --fonte05: 'Sriracha', sans-serif;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
