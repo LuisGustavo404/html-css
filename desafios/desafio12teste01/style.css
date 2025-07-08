@@ -34,8 +34,8 @@ body{
 }
 
 section{
-    width: 90%;
-    height: 230px;
+    width: 70%;
+    height: 250px;
     border: 2px solid rgb(0, 0, 0);
     margin: auto;
     transition-duration: 1s;
@@ -75,7 +75,7 @@ section a:active{
 
 .imagens{
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 #img01{
