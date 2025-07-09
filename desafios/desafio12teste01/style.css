@@ -80,11 +80,12 @@ section a:active{
 
 #img01{
     background-image: url(imagens/retalhos/newretalhos.webp);
-
+    
 }
 
 #img01:hover{
     background-image: url(imagens/retalhos/oldretalhos.jpg);
+ 
 }
 
 #img02{
