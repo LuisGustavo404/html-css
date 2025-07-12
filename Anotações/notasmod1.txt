@@ -1,0 +1,370 @@
+Comandos de Atalhos:
+SELECIONA O CÓDIGO DESEJADO aperta CTRL + SHIFT + P + ENTER 
+ESCREVE A TAG REFERENTE AO PEDAÇO CÓDIGO SELECIONADO + ENTER
+
+CTRL + ENTER: vai para uma nova linha mesmo estando no meio de tags.
+
+ol>li*N + Tab: Constrói a estrutura ol com N números de linhas.
+
+||
+||
+||
+||
+HTML é uma linguagem focada em conteúdo.
+
+Esse conteúdo pode ser em forma de textos, imagens, vídeos, tabelas e etc...
+
+CSS linguagem focada em design.
+
+Cores, sombras, tamanhos, posicionamentos e etc...(tudo isso é gerado pela CSS).
+
+JavaScript (JS) é uma linguagem que permite adicionar interatividade nas paginas web.
+
+Menus, animações, popups, validações e etc...
+
+Esse conjunto é primordial.
+
+CSS
+
+ seletores -> h1{
+                [-----declaração-----] 
+		 font-family: Arial;
+	   [-propriedade-][-valor-]
+                 font-size:20pt;
+                 color:blue;
+              }
+
+Cada declaração é um par de propriedade e valor.
+
+Estrutura básica de um documento HTML:
+
+
+Front-end(client-side)
+
+O front-end é a parte visual de um site ou aplicativo,
+onde o usuário interage. 
+Importante ter alguns conhecimentos de design.
+
+Back-end(server-side)
+
+Está interessado na interação do código com as entranhas do servidor,
+com as tecnologias envolvidas com o server-side.
+O back-end é a parte interna de uma aplicação, que armazena e processa dados para os usuários.
+O back-end é fundamental para garantir a eficiência e a segurança do sistema.
+
+
+Marcações:
+title: Título da página.
+h1: Título de nivel 1.
+p: Parágrafo.
+br: Quebra de linha.
+hr: Cria uma linha horizontal, ou regra horizontal, em uma página web.
+<!-- : Tag para inserir comentários.
+&lt; : LESS THAN. 
+&gt; : GREATHER THAN.
+img src: Tag para inserir imagens.
+addres: Informações de um elemento.
+style: Permite incluir código CSS no Html5.
+b: Negrito em uma forma não semântica, sem muito significado. 
+strong: Negrito em uma forma semântica, quando há uma necessidade de uso.
+i: Não tem semântica é simplismente uma forma em itálico.
+em: Também é itálico, mas para o HTML a tag é semântica, tem significado.
+mark: Marca Texto.
+small: Letras miúdas. Ex de semâmtica: (leia as letras miúdas desse contrato). 
+del: Para indicar que algo deve ser lido, mas não considerado.
+ins: Para dar ênfase e indicar que ele foi adicionado depois (semântica).
+u: sublinha (não semântica).
+sup: Texto Sobrescrito. Para elevar algo. Ex: x<sup>20</sup>+3. O 20 será elevado.  
+sub: Texto Subscrito. Para decair algo. Ex: H<sub>2</sub>0. O 2 irá decair.  
+code: Fonte monoespaçada, ótima para ler códigos(Sem identação).
+pre: Mantém a formatação, ótima para mesclar com a tag code. 
+q: Citações simples, utilizada quando há uma citação, servindo como aspas.
+blockquote: Citações completas, isola citações longas do restante do texto.
+cria um block para elas.
+blockquote cite=: Não vai aparecer, porém, estará referênciando a citação.
+abbr: Abreviação. No parametro title="X" deve ser colocado o nome completo. 
+bdo dir="rtl": Inverte o Texto.
+ol: Listas ordenadas, cria uma lista em que a ordem importa.
+li: Listagem de item.
+ul: Listas não-ordenadas, cria uma lista em que a ordem não importa.
+a: É usada para criar links, ou seja, vincular uma página a outra ou a outros recursos da web.
+Também conhecida como tag âncora.
+source: É utilizado para especificar múltiplos recursos de mídia de elementos <picture>,
+<audio> ou <video> em HTML5.
+audio: Serve para incorporar conteúdo de som em um documento web, como música ou outros fluxos de áudio.
+vídeo:
+div: Serve para agrupar elementos, criar seções e definir o layout de uma página web.
+main: Serve para definir o conteúdo principal de uma página ou aplicação, indicando qual é o conteúdo mais relevante e essencial para o usuário. 
+
+
+w3c procurar tags invalidas referente cap8 aula 1. 
+
+Vamos adicionar alguns símbolos especiais:
+        e comercial + o código do simbolo ex:↓
+        &copy;
+        &trade;
+        &euro;
+	&Delta;
+        &uparrow;
+        &downarrow;
+
+Vamos adicionar alguns emojis:
+        tag &#x + o código do emoji ex: 😂  
+	&#x + 1F602; 
+        &#x1F60A; 😊
+
+png: Sempre que eu quiser usar imagens com fundo
+transparente e com uma qualidade superior.
+
+jpeg/jpg: Sempre que eu quiser usar imagens grandes cuja 
+compactação for algo muito importante.
+
+GIMP: Ferramenta utilizada para ajustar imagens para o site conforme a necessidade.
+
+Tag img HTML5:
+
+<img src="ctrl+espaço"<!-- Você importa os arquivos -->
+alt=" imagem bonita e legal " <!-- Aqui você adiciona uma nota/descrição a sua imagem -->
+
+ <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p>
+    <img src="logohtml5.png" alt="Logo HTML 5">
+
+    <p>Podemos carregar também imagens que estão em sub-pastas.</p>
+    <img src="imagens/logo css3.png" alt="Logo CSS3">
+
+    <p>Também podemos carregar imagens externas copiando o endereço diretamente.
+    Mas cuidado, nesse caso a imagem pertence a outro servidor, se ele cair/a imagem for apagada,
+a imagen ficará indisponivel, sendo impossível de ser visualizada no site.</p>
+    <img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-1-225993.png" alt="Logo JavaScript"> 
+    <!-- URL -->
+
+Colocando Icon em um site:
+
+Você pode acessar sites como o favicon e icon archive para encontrar ou fazer seus ícones.
+Para colocar o icon em seu site é simples.
+
+Acima do <title> você digita link e seleciona a opção link:favicon.
+
+Após isso em href=" bem aqui " <!-- Você apaga o que entre aspas, aperta ctrl+espaço
+e seleciona o icon desejado --> ex:
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<title>Testando Favicon</title>
+
+Hierarquia de Títulos:
+h1:Nível 1
+h2:Nível 2
+h3:Nível 3
+h4:Nível 4
+h5:Nível 5
+h6:Nível 6
+
+Não se deve pular a sequência.
+Não são usados para definir tamanho da letra.(isso é feito em css)
+Sim, organizar a semântica do seu site.
+
+lorem: é um gerador de texto.
+ex: <p>lorem</p> Texto de tamanho padrão
+    <p>loremN</p> N é o nº de palavras que o texto terá.
+    <p>lorem10</p> O texto terá 10 palavras.
+
+Semântica no HTML5:
+
+Se a tag ficar vermelha no HTML5 significa que ela está obsoleta.
+A HTML5 está focada na semântica que significa, significado.
+Você colocar um texto centralizado não é significado é forma, 
+uma frase com a cor branca não é significado é forma.
+E para tudo o que é forma, como cores, posicionamento dos textos, sombras,
+agora se reservam as CSS.
+
+Espaços / Tabulação:
+Seleciona o código em seguida:
+shift+tab: Retira uma tabulação.
+tab: Acrescenta uma tabulação.
+
+É possível por listas dentro de listas.EX:
+<h2> Receitas de Diferentes tipos de Pães</h2>
+<ol>
+<li>Pão Francês</li>
+    <ul>
+	<li>....</li>
+	<li>....</li>
+	<li>....</li>
+	<li>....</li>
+    </ul>
+<li>Pão Doce</li>
+    <ul>
+        <li>...</li>
+	<li>....</li>
+	<li>....</li>
+	<li>....</li>	
+    </ul>
+</ol>
+
+
+Links Externos:
+
+Quando você vai abrir um site/link que não pertence a sua navegação normal,
+o ideal é que você abra-o em outra aba, e para isso utiliza-se o parâmetro target=_blank EX:
+
+<p>Você pode acesssar o meu 
+<a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no Github</a></p>
+
+o atributo rel="" serve basicamente para informar a relação entre uma URL e uma página, podendo ser external,
+next, prev, nofollow e etc...
+
+Links Internos:
+
+Ele vai fazer a relação/ligação com outra página que está dentro do servidor e diz respeito a nossa própria página
+
+Quando você vai abrir um link que pertence a sua página/navegação normal,
+o ideal é que você abra-o na mesma aba, e para isso utiliza-se o parâmetro target=_self EX:
+
+<p>Esta é a primeira página do site. Se você quiser pode acessar também a minha
+<a href="pag02.html" target="_self" rel="next"> segunda página</a></p>	    
+
+Quando você faz um link que não tem o seu aval, não é muito confiável ou é um link patrocinável,
+você utiliza o rel="nofollow"
+
+Na criação de pastas para você acessá-las da página principal, utiliza-se o atalho CTRL + ESPAÇO e seleciona a página desejada.
+
+E caso vocês estejam em uma pasta e precisem voltar 2, 3, 4 pastas em um link é só continuar usando a sequencias de "../../../arquivo.html"
+para cada sequencia de ../ o código volta uma página. EX:
+
+<p>Está é a terceira página.</p>
+<p><a href="../index.html">Voltar para a primeira página</a></p>
+
+Links para Download.
+
+<ul type="circle">
+        <li><a href="livro/LGPD.pdf" download="LGPD.pdf" type="application/pdf">Baixar livro em PDF</a></li>
+        <li><a href="livro/LGPD.zip" download="LGPD.zip" type="application/zip">Baixar livro compactado em ZIP</a></li>
+</ul>
+
+Em download será colocado o nome do arquivo.
+Type é onde sera inserido o media type.
+Lista de media types:
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+Mídias em HTML5
+
+A base é a imagem padrão, acima dela você vai pondo os sources na ordem do maior pro menor.
+
+       	<source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexível">
+
+Colocando áudios no site
+
+Tome cuidado com arquivos muito grandes.
+Tome cuidado com direitos autorais.
+
+<h1>Reproduzindo Áudio</h1>
+<p>Vamos aprender a reproduzir áudios em HTML5.</p>
+<audio src="midia/AlienorCake.mp3" controls type="audio/mp3"></audio>
+
+AUTOPLAY não é compatível com o chrome, pois em suas políticas o usuário que deve decidir
+se o áudio será tocado ou não. Por isso é necessário o CONTROLS.
+
+O AUTOPLAY só funciona no chrome se você inserir ele em conjunto com o atributo muted. 
+Pra dar autoplay e ainda ter o áudio é necessário iniciar o vídeo mutado e rodar um script para desmutar.
+
+
+Caso seu site não seja compatível com X tipo de mídia, podemos fazer com que caso a mídia 1
+não seja compatível a 2 será testada e etc...
+
+<audio preload="metadata" autoplay controls loop> <!-- loop é autoexplicativo, parâmetro pra reiniciar quando terminar.-->
+<!-- 1 --><source src="midia/guanacast33.mp3" type="audio/mpeg">
+<!-- 2 --><source src="midia/guanacast33.ogg" type="audio/ogg">
+<!-- 3 --><source src="midia/guanacast33.wav" type="audio/wav">
+<p>Infelizmente seu navegador não consegue reporoduzir áudio.
+<a href="midia/guanacast33.mp3">Clique aqui para baixar seu arquivo MP3</a></p>
+</audio>
+
+Lembrete:Para mudar de arquivo eles devem estar na mesma pasta. (ATALHO:Ctrl+espaço)
+
+Aqui vemos que, caso o audio do tipo MP3 não funcione, o áudio do tipo ogg será testado e caso não funcione, o áudio do tipo wav será testado.
+Se nenhum deles funcionarem aparecerá na tela a mensagem, que segue o código acima.(O áudio do tipo wav não é recomendado pois é muito pesado)  
+
+Para áudio o parametro utilizado é src="" (imagem é srcset="" caso você deseje que o tamanho da imagem mude de acordo com o dispositivo.)
+
+Tipos de preload:
+
+Auto(padrão): ele só vai considerar que o site terminou de carregar depois que carregar todo áudio também.
+metadada: vai carregar nome do arquivo e algumas informações, quando apertar play demora um pouquinho mais.
+none: não vai carregar nada, apenas carregará quando o usuário apertar play.
+
+Biblioteca de áudios do youtube pra testar: https://studio.youtube.com/channel/UC2jXBSwauY12H0jRK6gbOLQ/music
+
+
+Formatos de vídeos para seu site:
+
+Utilizar o pexels para encontrar vídeos grátis sem direitos autorais.
+
+Compatibilidade no HTML5, os formatos mais utilizados são arquivos.mp4 / arquivos.mkv / arquivos.webm / arquivos.ogv
+
+Vídeos grandes podem fazer seu site ficar muito pesado, utilize o HANDBRAKE, para tornar os vídeos mais leves e mudar seu formato.
+
+Vídeos hospedados usando a tag vídeos consumem muito tráfego de dados, isso faz pesar o bolso do seu cliente.
+
+<h1>Inserindo vídeos hospedados localmente</h1>
+<p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+<video width="500" height="500" poster="imagens/cclulu.png" controls>
+<source src="midia/Meu-Video.webm" type="video/webm">
+<source src="midia/Meu-Video1.mp4" type="video/mp4">
+<p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+</video>
+
+O parâmetro poster serve para selecionar o arquivo que será a capa do vídeo.
+
+Caso seu site não seja compatível com X tipo de vídeo, podemos fazer com que caso o vídeo 1
+não seja compatível o 2 será testado e etc..
+
+O parâmetro heigth = Altura
+O parâmetro Width = largura
+
+Incorporação de vídeos externos
+
+Vídeos em hospedagem própria consomem muitos dados do servidor.
+
+Vídeos do Youtube/Vimeo
+
+Quando você insere um vídeo do Youtube no seu site ele não consome dados do seu servidor, ele vai consumir os dados do youtube.
+
+O Youtube é o segundo maior buscador do mundo, então quando você cria um site pro seu cliente e o vídeo dele está no youtube e no seu site,
+isso amplia ainda mais a abrangência e as views, é muito importante que seu cliente ou você que está desenvolvendo crie um canal no Youtube,
+para você upar o vídeo no youtube e depois encorporar no seu site.
+Com isso o vídeo ficará público para qualquer pessoa, mas existem sites como o "vimeo"(pago), em que você pode deixar os vídeos privados para que as
+pessoas não tenham acesso.
+
+CSS Inline
+
+É usável, mas esse método é usado para configurações pontuais.
+Basicamente o inline, o estilo é feito na mesmo linha, e todos os estilos e configurações também são feitas na mesma linha.
+Se for usado com excesso pode tornar o código confuso, pois vai ficar misturado a estilização com o conteúdo.
+
+CSS Locais / Internos
+
+Faz com que o contéudo fique visualmente separado da estilização.
+Essa técnica é mais vantajosa que a Inline, quando voce tiver uma página simples em que você queira fazer configurações locais que não serão aplicadas
+a outros documentos, você deve utilizar essa forma. 
+
+Desvantagens:
+
+Geralmente o estilo ocupa muito mais linhas que o conteúdo, as vezes você vai abrir um arquivo e você vai ter que descer muito pra chegar no conteúdo.
+Caso você tenha 30 páginas e você queira esse mesmo estilo, vai ser necessário copiar e colar nas 30 páginas. Essa técnica é útil pra configuração de 
+1 documento, se partir pra várias páginas a mais aconselhável a se usar é a terceira técnica.
+
+CSS Externos
+
+É mais versátil, torna possível estilizar todas as pagínas da mesma forma, pois cria um arquivo exclusivo pra por os estilos.
+Essa maneira é a mais útil para criação de sites.
+É possível utilizar mais de um link porém, as regras de estilo são aplicadas na ordem em que aparecem no documento. Se houver conflitos de estilos entre as diferentes folhas de estilo,
+a regra definida no arquivo que aparece por último terá precedência e será aplicada ao elemento.
+
+Em um mesmo arquivo é possível usar CSS Inline, CSS Interno e CSS Externo.
+O que prevalece é o Inline, depois o Interno e por fim o Externo. Mas o externo é muito mais versátil.
+Só use o Inline em casos muito expecíficos.
+O interno, só utilize em estilos pequenos, se o estilo for crescendo e atrapalhar o código joga fora.
+Externo usem sem moderação, e principalmente se o seu código tiver mais de uma página utilizando o mesmo estilo. 

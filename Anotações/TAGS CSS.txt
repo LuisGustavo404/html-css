@@ -1,0 +1,312 @@
+@charset "UTF-8";
+CSS:
+background-color: Cor de fundo.
+font-family: Fonte.
+font-size: Tamanho da fonte.
+font-weight: Peso da fonte, negrito.
+font-style: Itálico ou normal.
+
+font: No lugar de usar as 4 font de cima, podemos utlizar a propriedade shorthand font na seguinte ordem.
+- font-style -> font-weight -> font-size -> font-family
+ficando assim:
+h1{
+font: italic bolder 3em 'work sans', sans-serif;             
+}
+
+text-decoration: underline; é sublinhado. 
+color: Cor.
+text-align: Controla o alinhamento horizontal do conteúdo inline dentro de um elemento, como texto, imagens, ou outros elementos
+com display: inline ou display: inline-block. Ela não afeta o alinhamento dos elementos em si, mas sim o conteúdo dentro deles.
+
+background-image: linear-gradient(): A função linear-gradient() é utilizada em conjunto com propriedades que aceitam a aplicação de imagem, entre elas background-image, border-image, entre outras. Na prática, ela cria um efeito degradê em forma linear e é aplicada como uma imagem de fundo.
+
+border-radius:  É utilizada para definir o raio dos cantos de um elemento, permitindo que esses cantos fiquem arredondados.
+
+border: Borda.
+
+box-shadow: Adicionar sombras a elementos, criando um efeito visual que pode melhorar a estética do site e destacar elementos importantes.
+
+box-shadow: inset; A sombra fica pra dentro.
+
+box-shadow: deslocamento-horizontal deslocamento-vertical desfoque espalhamento cor;
+
+box-shadow: inset 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+
+width: Definir a largura de um elemento no documento HTML.
+
+height: Definir a altura de um elemento no documento HTML.
+
+padding: Criar espaçamento interno dentro de um elemento HTML, ou seja, entre o conteúdo do elemento e suas bordas. Ele é usado para espaçar o conteúdo, separando-o das bordas e criando uma área de visualização mais clara e agradável. 
+
+margin: A propriedade margin em CSS serve para definir o espaço externo (a margem) ao redor de um elemento, afastando-o de outros elementos ou do seu próprio conteúdo. É utilizada para controlar o espaçamento entre elementos na página, seja para criar espaço entre eles ou para posicioná-los dentro de um elemento pai. 
+
+text-shadow: A propriedade text-shadow em CSS serve para adicionar um efeito de sombra ao texto, melhorando a legibilidade e o estilo visual.
+Direita, para baixo, espalhamento, cor.
+
+text-align: left; Alinhamento do texto à esquerda.
+
+text-align: right; Alinhamento do texto à direita.
+
+text-align: center; Centralização do texto.
+
+text-align: justify; Alinhamento do texto à esquerda e à direita.
+
+text-indent: 30px; Tamanho do espaço antes do parágrafo começar(margem).
+
+text-decoration: É uma propriedade que permite adicionar decorações como sublinhado, sobrelinha, linha cortada ou piscando ao texto.
+
+content: Define o conteúdo de um elemento, essa propriedade se aplica somente aos pseudo-elements ::before e ::after.
+
+A propriedade DISPLAY em CSS controla o tipo de caixa que um elemento renderiza numa página web, influenciando como ele se comporta em relação aos outros elementos. Ela define se o elemento se comporta como um bloco (ocupando a largura disponível) ou em linha (ocupando apenas o espaço necessário), entre outras opções.
+ 
+Detalhes sobre a propriedade display:
+
+display: block;
+
+O elemento ocupa a largura máxima disponível, formando um bloco que começa uma nova linha. Por padrão, elementos como <div>, <p>, <h1>, <hr> e <li> são elementos de bloco. 
+
+display: inline;
+
+O elemento ocupa apenas o espaço necessário, podendo estar na mesma linha com outros elementos inline. Por padrão, elementos como <span>, <a>, <img> e <input> são elementos inline. 
+
+display: inline-block;
+
+O elemento se comporta como um elemento inline, mas permite definir propriedades de largura e altura, como um bloco.
+ 
+display: none;
+
+O elemento e seus filhos são removidos da árvore de renderização, não ocupando espaço na página.
+ 
+table, flex, grid:
+
+São valores mais recentes que permitem criar estruturas de layout como tabelas, estruturas flexíveis e grids.
+ 
+Em resumo: A propriedade display é fundamental para controlar o layout de uma página web, permitindo ajustar como os elementos são renderizados e posicionados em relação uns aos outros.
+
+transition-duration: Define a duração de uma transição, especificando quanto tempo a alteração de um valor de propriedade CSS para outro deve levar. Por exemplo, se você definir transition-duration: 1s, a transição levará 1 segundo para ser concluída. 
+
+Configuração para posicionar conforme a sua vontade.
+
+#video{
+    background-color: green;
+    margin: 0px -15px 30px -15px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 56%;
+}
+#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+border-top-left-radius: Em CSS serve para arredondar o canto superior esquerdo de um elemento, definindo o raio do arco que formará esse canto.
+
+border-top-right-radius: Em CSS serve para arredondar o canto superior direito de um elemento, definindo o raio do arco que formará esse canto.
+
+columns: Em CSS serve para criar layouts de múltiplas colunas em um elemento. Ela permite definir a largura mínima para cada coluna e o número máximo de colunas que o elemento deve ter.
+
+column-width (largura da coluna): Define a largura mínima para cada coluna.
+
+column-count (número de colunas): Define o número máximo de colunas.
+
+column-gap (espaço entre as colunas): Define o espaço entre as colunas.
+
+column-rule (regras de linha entre as colunas): Define as regras de linha entre as colunas (como estilo, cor e largura). 
+
+A propriedade background-image: url() em CSS é usada para definir uma imagem como plano de fundo de um elemento HTML. A função url() dentro dessa propriedade especifica o caminho ou URL da imagem que será exibida como plano de fundo.  
+
+A propriedade background-repeat em CSS serve para definir como uma imagem de fundo (definida com background-image) deve ser repetida dentro do elemento em que foi aplicada. Por padrão, uma imagem de fundo é repetida tanto na horizontal quanto na vertical.
+ 
+Valores comuns e seus efeitos:
+
+repeat (padrão): A imagem de fundo repete-se em ambas as direções (horizontal e vertical). 
+
+no-repeat: A imagem de fundo não se repete, aparecendo apenas uma vez no elemento. 
+
+repeat-x: A imagem de fundo repete-se apenas na direção horizontal. 
+
+repeat-y: A imagem de fundo repete-se apenas na direção vertical. 
+
+space: A imagem é repetida horizontal e verticalmente, mas com um espaçamento igual entre elas para que não haja corte, e a imagem pode aparecer inteira ou com uma pequena parte cortada no final, dependendo do tamanho do elemento e da imagem. 
+
+background-position: A propriedade background-position em CSS serve para definir a posição inicial de uma imagem de fundo dentro de um elemento. Por padrão, a imagem de fundo é posicionada no canto superior esquerdo e repetida vertical e horizontalmente.
+
+1. Palavras-chave (keywords)
+Valor   Descrição
+	
+left	Alinha à esquerda e centraliza verticalmente
+
+right	Alinha à direita e centraliza verticalmente
+
+top	Alinha ao topo e centraliza horizontalmente
+
+bottom	Alinha à base e centraliza horizontalmente
+
+center	Centraliza horizontal e verticalmente
+
+left top	Canto superior esquerdo
+
+left center	Centro vertical, à esquerda
+
+left bottom	Canto inferior esquerdo
+
+center top	Canto superior centralizado
+
+center center	Centro exato
+
+center bottom	Centro inferior
+
+right top	Canto superior direito
+
+right center	Centro vertical, à direita
+
+right bottom	Canto inferior direito
+
+2. Porcentagens
+
+Valor	   Descrição
+
+0% 0%	   Canto superior esquerdo
+
+100% 0%	   Canto superior direito
+
+0% 100%	   Canto inferior esquerdo
+
+100% 100%  Canto inferior direito
+
+50% 50%	   Centro exato (igual a center center)
+
+25% 75%	   Um quarto da largura, três quartos da altura
+
+3. Unidades (px, em, rem, etc.)
+
+Valor	        Descrição
+
+0px 0px	        Canto superior esquerdo
+10px 20px	10px da esquerda, 20px do topo
+5em 3em	        5em da esquerda, 3em do topo
+100px 50%	100px da esquerda, metade da altura
+10% 30px	10% da largura, 30px do topo
+
+4. calc()
+
+Valor	                                Descrição
+
+calc(100% - 20px)10px	                20px da borda direita, 10px do topo
+calc(50% + 10px) calc(100% - 5em)	Ajustes dinâmicos com base no tamanho do elemento
+
+5. Combinando keywords + unidades
+
+Valor	                   Descrição
+
+left 20px top 10px	   20px da esquerda, 10px do topo
+right 10px bottom 15px	   10px da direita, 15px da base
+
+6. Múltiplas posições (para várias imagens de fundo)
+
+background-image: url(bg1.png), url(bg2.png), url(bg3.png);
+background-position: left top, center center, right bottom;
+Camada da imagem	Posição
+Primeira	        left top
+Segunda	                center center
+Terceira	        right bottom
+
+
+background-size: A propriedade background-size em CSS serve para controlar o tamanho das imagens de fundo aplicadas a um elemento, permitindo que você as ajuste para o tamanho que desejar, em vez de usar o tamanho original da imagem. 
+
+backgroud-size: auto
+
+Em CSS é utilizada para definir o tamanho de uma imagem de fundo de um elemento. Quando auto é especificado, a imagem de fundo é exibida com suas dimensões originais, sem distorção, e o navegador a dimensiona de forma a manter sua proporção natural. 
+
+backgroud-size: contain
+
+Serve para redimensionar uma imagem de fundo de forma a garantir que ela esteja totalmente visível dentro do seu elemento contêiner, preservando suas proporções originais. Isso significa que, mesmo que a imagem fique menor que o espaço disponível, ela será exibida na sua totalidade, podendo resultar em espaços vazios ao redor dela.
+
+background-size: cover
+
+Garante que a imagem de fundo sempre cubra todo o elemento, mas pode cortar partes da imagem se necessário para manter a proporção.   
+
+Como funciona com pixels:
+
+Definição de dimensões específicas:
+
+Ao usar valores em pixels (por exemplo, background-size: 300px 150px;), você define explicitamente a largura e a altura que a imagem de fundo deve ter. O primeiro valor refere-se à largura e o segundo à altura. 
+
+Com um único valor:
+
+Se você definir apenas um valor (por exemplo, background-size: 400px;), esse valor será aplicado à largura e a altura será definida como auto, o que significa que a altura se ajustará automaticamente para manter a proporção da imagem. 
+
+Como as porcentagens são usadas com background-size:
+
+background-size: 100% 100%;
+
+Esta configuração redimensiona a imagem de fundo para que ela ocupe toda a largura e altura do elemento contêiner, sem manter necessariamente a proporção original da imagem, o que pode resultar em distorção.
+ 
+background-size: 50% auto; (ou auto 50%)
+
+Se você usar apenas um valor percentual, a outra dimensão (altura neste exemplo) será definida automaticamente para manter a proporção da imagem ou para preencher o espaço restante.
+ 
+background-size: 50% 50%;
+
+Redimensiona a imagem para que ela ocupe 50% da largura e 50% da altura do elemento contêiner.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+background-attachment: scroll;
+
+O valor padrão. A imagem de fundo rola junto com o conteúdo do elemento ou da página.
+
+background-attachment: fixed;
+
+A imagem de fundo permanece fixa na janela de visualização, mesmo quando o conteúdo rola.
+
+background-attachment: local; 
+
+A imagem de fundo rola junto com o conteúdo do elemento (e não com a janela de visualização).  
+
+Shorthand - Background ordem:
+
+ color > image > repeat > attachment > position / size
+
+EX: 
+
+ background: black url('imagens/wallpaper002.jpg') no-repeat fixed center top / cover;
+
+font-variant: small-caps;: Converte todas as letras minúsculas para o estilo versalete, as maiúsculas verdadeiras aparecem um pouco maiores. 
+
+line-height: controla o espaçamento entre as linhas de um texto, definindo a altura total da linha.
+
+TABELAS
+
+Border-collapse: border-collapse em CSS é usada para controlar como as bordas das células de uma tabela são exibidas. 
+
+Valores da propriedade border-collapse:
+
+collapse: As bordas das células adjacentes são mescladas em uma única borda.
+ 
+separate: Cada célula tem sua própria borda, com espaço entre elas. 
+
+initial: Define a propriedade para seu valor inicial (que é separate). 
+
+inherit: Herda o valor da propriedade de seu elemento pai. 
+
+vertical-align: A propriedade vertical-align em CSS serve para controlar o alinhamento vertical de um elemento em relação ao seu elemento pai ou à linha de base de texto.
+
+top: Alinha o topo do elemento ao topo da linha.
+
+bottom: Alinha a parte inferior do elemento à parte inferior da linha.
+
+middle: Alinha o meio do elemento ao centro da linha (mais precisamente, à linha de base mais o meio da altura x do elemento pai). 
+
+baseline: Alinha a linha de base do elemento à linha de base do elemento pai. 
+
+sub e super: Alinham o elemento como subscrito ou sobrescrito, respectivamente. 
+
+text-top: Alinha o topo do elemento ao topo do texto pai.
+
+text-bottom: Alinha a parte inferior do elemento à parte inferior do texto pai.
+
+Valores numéricos (com ou sem unidade): Permitem um deslocamento vertical preciso em relação à linha de base do elemento pai. 

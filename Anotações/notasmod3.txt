@@ -1,0 +1,486 @@
+Repositório local
+
+ Um repositório local é um espaço no seu computador onde você guarda seus arquivos e a história de alterações (commits) de um projeto.
+
+Git
+
+ É um software que vai manter versões do seu código dentro do seu computador.
+
+Repositório remoto
+
+ É um local de armazenamento de um repositório, geralmente hospedado na Internet ou em uma rede, que é diferente daquele no qual você está trabalhando localmente (no seu computador). 
+ Em outras palavras, é a versão "externa" do seu projeto, que pode ser compartilhada, colaborada e versionada por outros desenvolvedores. 
+
+GitHub
+
+ Vai fazer um backup do seu repositório local na nuvem. 
+
+ Gerenciando Repositórios GitHub
+
+Aprendemos a comitar novas mudanças nos nossos arquivos.
+
+Aprendemos como modificar algumas propriedades dos repositórios que a gente criou.
+
+Aprendemos a apagar repositório local e remoto.
+
+Aprendemos a criar novos repositórios sem ter aquela tela inicial do GitHub Desktop.
+
+ Hospedando site gratuitamente com GitHub Pages
+
+Hospedando o projeto que criamos
+
+Crie um novo repositório no GitHub
+Acesse o site do GitHub, clique em "New repository", escolha um nome para ele e configure como preferir (público ou privado, com ou sem descrição, etc.).
+Assim você vai criar um repositório local.
+ 
+Copie os arquivos do seu site para a pasta do repositório
+
+Pegue os arquivos do seu site já pronto e coloque dentro da pasta do repositório que você acabou de criar.
+
+Renomeie o arquivo principal do seu site para index.html(na pasta nova)
+
+Isso é importante, porque o GitHub Pages usa esse nome para exibir o conteúdo da página inicial.
+
+Depois disso, o seu repositório local vai identificar que houve mudanças nos arquivos do site. Então, você precisa salvar essas alterações (comitar) e enviar para o GitHub. Após o envio, é só acessar o GitHub e você verá o projeto lá.
+
+Como publicar um repositório
+
+Você deve entrar no repositório q vc quer publicar e ir em settings. Daí vc vai na coluna esquerda ali nas opções, e clica em "pages".No pages, você deixa o source em "deploy from a branch". Na configuração de baixo que é o "branch" provavelmente vai estar "none", você clica e muda pra "main". Vai aparecer mais um campo na direita dele escrito "/(root)", não mexe, e clica em "save" do lado desse root. 
+ Então, lá em cima no mesmo lugar onde vc clicou em settings, um pouco antes tá o "actions", você clica lá e ele vai estar preparando sua hospedagem, com a seguinte mensagem escrita "pages build and deployment". Quando terminar, ele vai mostrar um selo verde com um check, se não é só atualizar a página. A partir daí ou você volta lá pro pages pra pegar o link, ou vc clica nessa parte do actions mesmo, onde tá escrito "pages build and deployment", que vai ir pra uma página que vai estar com um quadradinho escrito "deploy" com o seu link embaixo. Acessando o link você acessa seu site de qualquer dispositivo.
+
+Criando um QrCode para o site.
+
+Acesse o site https://www.qr-code-generator.com
+
+E realize o download do seu QrCode.
+
+ Manutenção em sites hospedados no GitHub Pages
+
+Acesse o Git Hub desktop selecione o repositório local desejado, abra o repositório no Visual Studio Code, faça as alterações desejadas, commit to main, espere alguns segundos que as alterações serão salvas.
+
+ Clonando Repositórios GitHub
+
+Acesse o GitHub
+Vá até o site do GitHub e abra o repositório que você deseja clonar.
+
+Clique no botão "Code"
+Dentro da página do repositório, clique no botão verde “Code”.
+
+Escolha "Open with GitHub Desktop"
+No menu que aparece, clique na opção “Open with GitHub Desktop”.
+
+O GitHub Desktop será aberto automaticamente
+O aplicativo GitHub Desktop será iniciado com o repositório já selecionado para clonagem.
+
+Escolha o local de salvamento
+Escolha a pasta no seu computador onde o repositório será salvo.
+
+Clique em "Clone"
+Após selecionar o local, clique no botão “Clone” para iniciar a clonagem do repositório.
+
+ GitHub em vários PCs
+ 
+1. Instalação e login
+O primeiro passo é instalar o GitHub Desktop em todos os computadores em que você pretende trabalhar. Após instalar, basta fazer login com sua conta do GitHub. Isso permite que o programa se conecte aos seus repositórios e mantenha tudo centralizado na sua conta.
+
+2. Configuração inicial
+Depois de fazer login, é importante configurar seu nome de usuário e e-mail dentro do próprio GitHub Desktop. Isso é feito acessando o menu:
+
+File > Options > Git
+
+Essas informações são usadas para identificar quem está fazendo as alterações nos projetos, e devem ser as mesmas em todos os computadores para manter a consistência nos históricos.
+
+Após configurar, as informações são salvas automaticamente. Você só precisa fazer isso uma vez por máquina.
+
+3. Clonando o repositório em cada computador
+Para começar a trabalhar em um projeto que já está no GitHub, você precisa "clonar" esse repositório, ou seja, baixar uma cópia dele para o computador. Isso é feito diretamente pelo GitHub Desktop, escolhendo o repositório desejado da sua conta e selecionando uma pasta onde ele será salvo.
+
+Esse processo é necessário uma única vez por computador, e garante que você terá acesso à versão mais recente do projeto.
+
+4. Trabalhando e salvando alterações
+Após clonar o projeto, você pode abrir os arquivos no editor de sua preferência e fazer alterações normalmente. O GitHub Desktop detecta automaticamente essas mudanças. Quando terminar de editar:
+
+Você insere uma descrição do que foi feito (isso é chamado de commit).
+
+Confirma esse commit.
+
+Envia as alterações para o GitHub online, clicando em Push origin.
+
+Isso atualiza o repositório remoto, ou seja, o projeto "na nuvem", tornando suas alterações acessíveis de qualquer outro computador conectado à sua conta.
+
+5. Sincronizando entre computadores
+A chave para usar o GitHub Desktop em vários computadores é manter os repositórios sincronizados. Sempre que mudar de máquina, siga este ritual simples:
+
+Antes de sair de um computador: Envie (push) todas as suas alterações para o GitHub.
+
+Ao começar em outro computador: Abra o GitHub Desktop, clique em Fetch origin e depois em Pull origin para baixar tudo o que foi feito no outro lugar.
+
+Seguindo esse processo, você garante que sempre estará trabalhando com a versão mais atual do projeto, evitando erros e conflitos.
+
+6. Evitando problemas de acesso
+O GitHub pode pedir que você confirme sua identidade ao enviar alterações. Para facilitar esse processo e não precisar digitar senha ou token toda hora, você pode configurar uma chave SSH. Esse é um método de autenticação segura que associa um computador à sua conta GitHub.
+
+O GitHub Desktop tem suporte para isso, e a configuração é feita apenas uma vez por máquina. Depois disso, o envio de alterações se torna automático e sem interrupções.
+
+ Colocando uma imagem de fundo no seu site
+
+1. Defina o elemento:
+Escolha o elemento HTML onde você quer a imagem de fundo (geralmente o body para a página inteira, ou uma div específica para uma seção).
+ 
+2. Use a propriedade background-image:
+No seu arquivo CSS, aplique a propriedade background-image ao elemento escolhido. 
+
+3. Indique o caminho da imagem:
+Utilize o valor url() para especificar o caminho da sua imagem.
+
+ Imagens que se repetem no fundo do site
+
+No background-image: url(), podemos usar uma URL diretamente da internet sem precisar salvar a imagem localmente. No entanto, se a imagem for removida do servidor de origem, ela deixará de aparecer no site.
+
+A propriedade background-size permite definir o tamanho da imagem de fundo que será exibida no elemento.
+
+A propriedade background-repeat define como a imagem de fundo será repetida — podendo se repetir na horizontal, na vertical ou não se repetir, utilizando valores como repeat, no-repeat, repeat-x e repeat-y.
+
+ Configurando a posição da imagem no fundo do site
+
+ A propriedade background-position define a posição da imagem de fundo dentro de um elemento HTML. Ela determina onde a imagem será exibida, seja ela repetida ou não, e funciona em conjunto com outras propriedades como background-image, background-size e background-repeat.
+
+ A posição pode ser controlada com:
+
+1. Palavras-chave
+Permitem alinhar a imagem com base nas bordas do elemento.
+
+Exemplos:
+
+left top → canto superior esquerdo (valor padrão)
+
+right bottom → canto inferior direito
+
+center center → centro do elemento
+
+Essas palavras são interpretadas da seguinte forma:
+
+left e right controlam o eixo horizontal
+
+top e bottom controlam o eixo vertical
+
+2. Porcentagens
+Usa o tamanho do elemento pai para posicionar a imagem:
+
+background-position: 50% 50%;
+50% 50% → o centro da imagem será alinhado ao centro do elemento.
+
+0% 0% → alinha o canto superior esquerdo da imagem com o canto superior esquerdo do elemento.
+
+100% 100% → alinha o canto inferior direito da imagem com o canto inferior direito do elemento.
+
+3. Comprimentos fixos
+Usa unidades como px, em, rem, vh, vw, etc.
+
+background-position: 20px 40px;
+Neste caso:
+
+A imagem de fundo será posicionada a 20px da borda esquerda do elemento e 40px da borda superior.
+
+Ideal quando você precisa de posicionamento exato e consistente.
+
+4. Mistura de valores
+Você pode combinar diferentes tipos de valores:
+
+background-position: 50% 10px;
+Aqui, o fundo está centralizado horizontalmente e 10px do topo.
+
+Testando como posicionar uma imagem em uma pagina em branco.
+
+<style>
+        body{
+            height: 100vh;
+
+            margin: 0px;
+
+            border: 1px dashed black;
+            background-image: url(https://gustavoguanabara.github.io/html-css/imagens/mascote.png);
+
+            background-size: 100px;
+
+            background-repeat: no-repeat;
+
+            background-position: left bottom;
+
+
+        }
+</style>
+
+ Mudando o tamanho da imagem de fundo do site
+
+Background-size, aceita o valor auto, é possivel por o tamanho fixo em pixels ou em porcentagem da tela, também podemos utilizar o countain pra mostrar 100% da imagem independente, porém por fazer a imagem se adaptar ao tamanho da tela sem cortar, pode acabar gerando distorções, ou o cover que vai fazer cortes mas irá preencher a tela inteira.
+
+ background-attachment e shorthand
+
+A propriedade background-attachment em CSS controla o comportamento de uma imagem de fundo em relação à rolagem da página ou do elemento. Ela determina se a imagem de fundo ficará fixa na tela ou se moverá junto com o conteúdo. 
+
+O "shorthand background" em CSS é uma propriedade abreviada que permite definir diversas propriedades relacionadas ao plano de fundo de um elemento (como cor, imagem, posição, repetição, etc.) de forma concisa em uma única linha de código, otimizando a escrita e a leitura do CSS. 
+
+Para utiliza-lá seguimos a seguinte ordem: 
+
+/*
+  Shorthand - background
+
+  color > image > repeat > attachment > position / size 
+*/
+
+Sem o uso da shorthand - background:
+
+         /* background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; 
+          */ 
+
+Com o uso da shorthand - background:
+
+    /*
+background: black url('imagens/wallpaper002.jpg') no-repeat fixed center top / cover;
+    */
+
+ Centralização vertical de caixas
+
+Aprendemos que existem elementos que podem conter outros elementos. As <div> são um exemplo de elemento contêiner. 
+
+O significado de contêiner (versão do Inglês container) é simples e direto: " aquele que contém coisas ". Quando você vai centralizar verticalmente uma caixa, é necessário ter a presença de um Container e de um Conteúdo.
+
+Quando queremos centralizar blocos horizontalmente, aprendemos a usar o margin: auto; nas folhas de estilo. Mas como fazer a centralização vertical?
+
+Considerando que temos um elemento dentro do outro e queremos centralizar verticalmente o elemento interno, devemos:
+
+Atribuir uma classificação (id ou class) para ambos os elementos, pai e filho...
+
+Posteriormente configurar o elemento pai com um "position: relative" e logo após configurar o elemento filho com um "position: absolute".
+
+No elemento filho, configurar ambas as Propriedades Auxiliares do position usadas nesse caso, left e top, com um valor de 50% - Feito isso, a nossa caixa interna será centralizada verticalmente. 
+
+É IMPORTANTE DESTACAR: Com essa configuração, o elemento interno realmente será alinhado pelo centro, mas tendo como referência o CANTO SUPERIOR ESQUERDO DA CAIXA FILHO... resultando especificamente no alinhamento desse ponto (canto superior esquerdo da box) e não da caixa como um todo.
+
+Para resolver isso, devemos mudar a posição do "ponto de alinhamento" da caixa filho para o CENTRO da box. Sendo que por padrão, como já vimos, esse ponto é no canto superior esquerdo. 
+
+Para transformar o "ponto de alinhamento" de uma caixa (mover a caixa), usamos a Propriedade de Estilo " transform ".
+
+Utilizando a propriedade transform é possível manipular visualmente um elemento (mover, rotacionar, dimensionar e etc). 
+
+As funções mais usadas para o transform são: rotate, scale, skew e translate. Para centralizar o "ponto de alinhamento" na nossa box, iremos usar a função "translate".
+
+translate - A função de translate serve para mover o elemento para os lados ou para cima/baixo. Mudar o seu "ponto de alinhamento"... A sintaxe pode ser especifica para um dos eixos x/y ( translateX ou translateY ), como pode ser apenas translate, abrangendo os dois eixos ( x, y ). Obs.: Para ir para o lado esquerdo ou para cima, use valores negativos.
+
+rotate - Como o nome já sugere, é utilizada para rotacionar o elemento, de 0 a 360 graus. Utilizando valores positivos, a rotação será realizada no sentido horário e, utilizando valores negativos, no sentido Anti-horário.
+
+scale - Utilizado para redimensionar os elementos, tendo como escala padrão o valor "1". Valores maiores que 1, aumentarão o tamanho do elemento, e valores menores que 1 diminuirão sua escala.
+
+skew - É utilizado para "distorcer" os elementos, alterando os ângulos.
+
+Nota: A propriedade de estilo "transform" e suas funções é muito utilizada juntamente com a pseudo-classe "hover" e com a propriedade de estilo "transition" para criar efeitos visuais.
+
+Entendido o conceito do transform e suas funções, usaremos a seguinte declaração para mudar/centralizar o "ponto de alinhamento" da nossa box filho: 
+
+transform: translate(-50%, -50%);
+
+Como queremos posicionamento centralizado, na função "translate" inserimos valores negativos de "-50% -50%" para deslocar o "ponto de alinhamento" da nossa caixa filho (metade do container... centro). O PRIMEIRO VALOR representa o deslocamento horizontal do ponto, e o SEGUNDO VALOR representa o deslocamento vertical desse ponto. 
+
+Utilizamos valores em % para ajustar o ponto de referência exatamente no meio da box (-50% -50%), mas dependendo do que você quer fazer, também pode usar valores em px ou outra unidade de medida.
+
+Lembrando que aquilo que de fato está centralizando a caixa são os Positions e suas Propriedades Auxiliares (left e top), a propriedade transform apenas mudou o ponto de referência da caixa filho.
+
+Segue abaixo um exemplo do código completo, tanto da box pai quanto da box filho: 
+
+#container{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: relative;
+            height: 97vh;
+            padding: 10px;
+            background-color: purple;
+
+           }
+
+#conteudo{
+           background-image: url('imagens/target001.png');
+           background-size: 100% 100%;
+           position: absolute;
+           height: 200px;
+           width: 400px;
+           background-color: yellow;
+           left: 50%;
+           top: 50%;
+
+           transform: translate(-50%, -50%);
+	  }
+
+Funcionamento do vh e vw
+
+As unidades vh e vw em CSS são unidades de medida relativas à "viewport", que é a área visível da janela do navegador. A unidade vh (viewport height) é usada para definir a altura de um elemento em relação à altura total da viewport, enquanto vw (viewport width) a utiliza para a largura.
+ 
+Como funcionam:
+
+vh (Viewport Height):
+
+1vh equivale a 1% da altura total da janela de visualização do navegador. Se a altura da sua viewport for de 900px, então 1vh será igual a 9px. 
+
+vw (Viewport Width):
+
+1vw equivale a 1% da largura total da janela de visualização do navegador. Se a largura da sua viewport for de 750px, então 1vw será igual a 7.5px. 
+
+Utilização prática:
+
+Essas unidades são extremamente úteis para criar layouts responsivos, garantindo que os elementos se adaptem dinamicamente ao tamanho da tela, independentemente do dispositivo do usuário (computador, tablet, smartphone). 
+
+Você pode definir a altura de um elemento para ocupar toda a altura da tela usando height: 100vh;. 
+
+Similarmente, width: 100vw; faz com que um elemento ocupe toda a largura visível. 
+vh e vw também podem ser usados para dimensionar fontes e outros elementos tipográficos de forma responsiva. 
+
+Comparação com outras unidades:
+
+Enquanto unidades como px (pixel) são absolutas, e em ou rem são relativas ao tamanho da fonte do elemento ou do elemento raiz, vh e vw são únicas por estarem sempre ligadas ao tamanho da janela de visualização do navegador. 	
+
+ Ainda podemos usar tabelas em HTML?
+ 
+Tabela é ruim para criar layouts de sites.
+
+Tabela serve para mostrar dados de forma tabular.
+
+ Minha primeira tabela em HTML.
+
+Hierarquias de tabelas simples contém:
+
+table = tabela
+	table row = tr(linha)
+		table header = th(cabeçalho)
+		table data = td(dados da tabela)
+
+exemplo de tabela:
+
+<Table>
+	<tr>
+             <td>A1</td>
+             <td>B1</td>
+             <td>C1</td>
+        </tr>
+        <tr>
+             <td>A2</td>
+             <td>B2</td>
+             <td>C2</td>
+        </tr>
+        <tr>
+             <td>A3</td>
+             <td>B3</td>
+             <td>C3</td>
+        </tr>	
+</table>
+
+Para criar várias tr e td de uma vez, é só usar o  * .
+
+Exemplo :
+ 
+<table>
+
+tr*4>td*3
+
+</table>
+
+Já vai criar 4 tr com 3 td.
+
+O w3c no HTML 5, coloca como opcional o fechamento da tabela.(recomendável fechar)
+
+Se os elementos não estiverem na hierarquia certa, os dados irão aparecer antes ou depois da tabela.
+
+ Alinhando o conteúdo em tabelas
+
+Eu posso alinhar tanto horizontalmente com left, center e right, utilizando o text-align. Quanto verticalmente com top, middle e bottom, utilizando o vertical-align.
+
+ Aprendendo a trabalhar com tabelas grandes
+
+ANATOMIA PARA TABELAS GRANDES
+        TABLE
+	    CAPTION = legenda da tabela
+            THEAD
+                TR,TD,TH
+            TBODY
+                TR,TD,TH
+            TFOOT
+ex:
+
+<table>
+        <thead>
+            <tr>
+               <th>Estado</th>
+               <th>População</th> 
+               <th>Porcentagem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 973 194</td>
+                <td class="num">21,63%</td>
+            </tr>
+            <tr>
+                <td>Minhas gerais</td>
+                <td class="num">21 322 691</td>
+                <td class="num">10,03%</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 219 679</td>
+                <td class="num">8,10%</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 850 513</td>
+                <td class="num">6,99%</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 824 665</td>
+                <td class="num">5,56%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>111 190 712</strong></td>
+                <td class="num"><strong>52,31%</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+ Escopo de títulos em tabelas
+
+ Existe um parâmetro para a tag th, e esse parâmetro serve justamente para especificarmos se o título da nossa célula é para uma coluna ou para uma linha. Esse parâmetro é o " scope ", você deve inseri-lo dentro da tag de abertura do th.
+
+Se o título da sua célula for para uma COLUNA, use como definição do parâmetro " scope " o VALOR " col ".
+
+Se o título da sua célula for para uma LINHA, use como definição do parâmetro " scope " o VALOR " row ".
+
+Esse parâmetro é importante para que os mecanismos de busca (google por ex) consigam analisar dos dados da sua tabela de forma coerente, de forma que faça sentido. Tais parâmetros não causam nenhum resultado visual, mas é muito útil de um ponto de vista semântico.
+
+ Efeito Zebrado na tabela
+
+Para criar o efeito zebrado dentro das linhas da sua tabela, é importante que determinemos em que parte da tabela queremos aplicar esse efeito, geralmente aplicamos somente nas linhas da parte do corpo da tabela (tbody).
+
+Para fazer isso, basicamente devemos abrir um seletor para o elemento " tbody ", indicado o seu filho direto que queremos formatar, que no caso é o " tr " (linha de tabela)... No elemento tr, iremos usar a pseudo-classe " nth-child() ". Para essa pseudo-classe, devemos inserir um valor dentro dos parênteses: O valor para aplicar o efeito zebrado é o " 2n ", que faz com que o background-color configurado para a linha seja inserido de duas em duas linhas, uma sim e uma não (mude o valor numérico se desejar um intervalo maior de inserção).
+
+Ficaria assim:
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
+}
+
+Obs.: Dentro do seletor exemplificado acima, temos uma declaração de especificação de background, a cor determinada nessa declaração que vai ser aplicada nas linhas zebradas.
+
+Na pseudo-classe " nth-child() ", ao invés de usarmos o valor " 2n ", também podemos usar os valores nominais " even " OU " odd " (par ou ímpar). Com um desses dois nomes como valor, podemos deixar toda linha que é ímpar (odd) com background, ou vice-versa, se for o valor even.
+
+O valor " 2n " seria equivalente ao valor nominal " even " (par)
+
+Entretanto, também temos o valor " 2n-1 ", que seria equivalente ao valor nominal " odd " (ímpar)
+

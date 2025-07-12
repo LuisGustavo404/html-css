@@ -1,0 +1,77 @@
+Tags HTML5:
+Marcações:
+title: Título da página.
+h1: Título de nivel 1.
+p: Parágrafo.
+br: Quebra de linha.
+hr: Cria uma linha horizontal, ou regra horizontal, em uma página web.
+<!-- : Tag para inserir comentários.
+&lt; : LESS THAN. 
+&gt; : GREATHER THAN.
+img src: Tag para inserir imagens.
+addres: Informações de um elemento.
+style: Permite incluir código CSS no Html5.
+b: Negrito em uma forma não semântica, sem muito significado. 
+strong: Negrito em uma forma semântica, quando há uma necessidade de uso.
+i: Não tem semântica é simplismente uma forma em itálico.
+em: Também é itálico, mas para o HTML a tag é semântica, tem significado.
+mark: Marca Texto.
+small: Letras miúdas. Ex de semâmtica: (leia as letras miúdas desse contrato). 
+del: Para indicar que algo deve ser lido, mas não considerado.
+ins: Para dar ênfase e indicar que ele foi adicionado depois (semântica).
+u: sublinha (não semântica).
+sup: Texto Sobrescrito. Para elevar algo. Ex: x<sup>20</sup>+3. O 20 será elevado.  
+sub: Texto Subscrito. Para decair algo. Ex: H<sub>2</sub>0. O 2 irá decair.  
+code: Fonte monoespaçada, ótima para ler códigos(Sem identação).
+pre: Mantém a formatação, ótima para mesclar com a tag code. 
+q: Citações simples, utilizada quando há uma citação, servindo como aspas.
+blockquote: Citações completas, isola citações longas do restante do texto.
+cria um block para elas.
+blockquote cite=: Não vai aparecer, porém, estará referênciando a citação.
+abbr: Abreviação. No parametro title="X" deve ser colocado o nome completo. 
+bdo dir="rtl": Inverte o Texto.
+ol: Listas ordenadas, cria uma lista em que a ordem importa.
+li: Listagem de item.
+ul: Listas não-ordenadas, cria uma lista em que a ordem não importa.
+a: É usada para criar links, ou seja, vincular uma página a outra ou a outros recursos da web.
+Também conhecida como tag âncora.
+source: É utilizado para especificar múltiplos recursos de mídia de elementos <picture>,
+<audio> ou <video> em HTML5.
+audio: Serve para incorporar conteúdo de som em um documento web, como música ou outros fluxos de áudio.
+vídeo: É usada para incorporar vídeos diretamente em páginas da web, sem precisar de plugins externos como Flash. Ela permite que os navegadores reproduzam vídeos de forma nativa.
+div: Serve para agrupar elementos, criar seções e definir o layout de uma página web.
+main: Serve para definir o conteúdo principal de uma página ou aplicação, indicando qual é o conteúdo mais relevante e essencial para o usuário. 
+
+Grouping tags em HTML5
+
+Sem valor semântico:
+
+<div> ->   block
+<span>	-> inline
+
+A tag <span> no HTML é um elemento de marcação em linha (inline) que serve para aplicar estilos ou manipular partes específicas de um texto ou conteúdo sem alterar sua estrutura. Diferente de outras tags como <div>, que são bloco (block), o <span> não quebra linha e não tem significado semântico próprio.
+
+Com valor semântico:
+
+Header: A tag <header> em HTML define a seção de cabeçalho de um documento ou seção, geralmente contendo elementos introdutórios ou de navegação. Serve para identificar o título da página, logotipo, links de navegação e outras informações relevantes no topo do conteúdo. 
+
+Nav: No HTML, o elemento <nav> representa uma seção de uma página que contém links de navegação, seja para outras páginas do site, seja para seções dentro da mesma página. Ele é utilizado para agrupar os principais links de navegação, como um menu de navegação principal, e ajuda na organização do conteúdo e na acessibilidade. 
+
+Main: No HTML, o elemento <main> define o conteúdo principal de um documento ou aplicação. Este conteúdo deve ser o principal, ou seja, o que está diretamente relacionado ao tema central da página ou da aplicação. 
+Em resumo, o elemento <main> é utilizado para indicar a parte mais importante e única da página, onde o conteúdo principal é apresentado, e não pode ser repetido em outras áreas do documento. 
+
+Section: A tag <section> no HTML5 serve para delimitar seções lógicas e estruturais de um documento, agrupando conteúdo relacionado e com um título ou cabeçalho, como um capítulo de um artigo. É uma forma de organizar o conteúdo de forma que seja mais fácil para os navegadores e leitores compreenderem a estrutura do documento. 
+
+Article: No HTML, o elemento <article> é usado para representar uma composição independente em um documento, página, aplicação ou site, ou que pode ser distribuída ou reutilizada de forma independente, como em sindicação. Essencialmente, é usado para marcar um conteúdo que faz sentido por si só. 
+
+Aside: No HTML, o elemento <aside> é usado para definir conteúdo que está tangencialmente relacionado ao conteúdo principal da página, mas que não é essencial para o seu entendimento. Geralmente, é utilizado para exibir informações adicionais, como barras laterais, avisos, informações do autor, links relacionados ou até mesmo anúncios.
+
+Footer: No HTML, o elemento <footer> serve para definir o rodapé de um documento ou de uma seção específica, geralmente localizada na parte inferior da página. Ele pode conter informações como direitos autorais, informações de contato, links úteis e outros elementos que encerram o conteúdo da página ou da seção. 
+
+table: <table> É a tag utilizada para criar tabelas, que são estruturas bidimensionais organizadas em linhas e colunas para apresentar dados de forma estruturada e organizada. As tabelas são compostas por linhas (<tr>), células de cabeçalho (<th>) e células de dados (<td>). 
+
+tr: Define uma Linha em uma tabela 
+
+th: Define uma célula de cabeçalho em uma tabela
+
+td: Significa "Table Data" (Dados da Tabela) e é usado para definir uma célula de dados dentro de uma tabela. Dentro de uma tabela, a tag <tr> define uma linha, e a tag <td> define cada célula de dados dentro dessa linha. Portanto, a tag <td> é usada para organizar e exibir o conteúdo da tabela, como texto, imagens ou outros elementos HTML, em células individuais dentro das linhas da tabela. 
