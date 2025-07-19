@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela OP</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        table{
+            border-collapse: collapse;
+            margin: auto;
+            width: 80%;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        caption{
+            background-color: grey;
+            padding: 10px;
+            color: white;
+            font-size: 1.4em;
+            font-weight: bolder;
+        }
+
+        tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+        #fixo{
+            position: sticky;
+            top: 0px;
+            background-color: grey;
+        }
+
+        #container{
+            overflow-y: auto;
+            max-height: 450px;
+        }
+
+        section{
+            width: 60%;
+            margin: auto;
+            background-color: white;
+            padding: 15px;
+            padding-bottom: 30px;
+            border-radius: 10px;
+            
+        }
+
+        article{
+            text-align: justify;
+           
+            
+        }
+
+        #informacao{
+            background-color: lightblue;
+            padding-top: 50px;
+        }
+
+        h1{
+            font-size: 1.8em;
+            text-align: center;
+        }
+        
+        h2{
+            font-size: 1.4em;
+        }
+
+        p{
+            text-indent: 10px;
+        }
+
+        aside{
+            background-color: rgb(186, 228, 255);
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            padding-bottom: 10px;
+        }
+
+        aside > h4{
+            text-indent: 10px;
+        }
+
+        aside > p {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #paside{
+            background-color: rgb(96, 194, 255);
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            color: white;
+            font-size: 1.3em;
+            font-weight: bolder;
+        }
+
+        footer{
+            margin-top: 50px;
+            background-color: rgb(4, 35, 82);
+            color: white;
+            padding: 10px;
+            font-size: 1.3em;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <caption>
+                Primeiras Openings dos Principais Animes
+            </caption>
+
+            <thead id="fixo">
+                <tr>
+                    <th scope="col">Animes</th>
+                    <th scope="col">Opening 01</th>
+                    <th scope="col">Opening 02</th>
+                    <th scope="col">Opening 03</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">Naruto</th>
+                    <td>R★O★C★K★S</td>
+                    <td>Haruka Kanata</td>
+                    <td>Kanashimi wo Yasashisa ni</td>
+                </tr>
+                <tr>
+                    <th scope="row">Bleach</th>
+                    <td>Asterisk</td>
+                    <td>D-tecnoLife</td>
+                    <td>Ichirin no Hana</td>
+                </tr>
+                <tr>
+                    <th scope="row">One Piece</th>
+                    <td>We Are!</td>
+                    <td>Believe</td>
+                    <td>Hikari e</td>
+                </tr>
+                <tr>
+                    <th scope="row">Attack on Titan</th>
+                    <td>Guren no Yumiya</td>
+                    <td>Jiyuu no Tsubasa</td>
+                    <td>Shinzou wo Sasageyo!</td>
+                </tr>
+                <tr>
+                    <th scope="row">My Hero Academia</th>
+                    <td>The Day</td>
+                    <td>Peace Sign</td>
+                    <td>Sora ni Utaeba</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fullmetal Alchemist: Brotherhood</th>
+                    <td>Again</td>
+                    <td>Hologram</td>
+                    <td>Golden Time Lover</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sword Art Online</th>
+                    <td>Crossing Field</td>
+                    <td>Innocence</td>
+                    <td>Ignite</td>
+                </tr>
+                <tr>
+                    <th scope="row">Tokyo Ghoul</th>
+                    <td>Unravel</td>
+                    <td>Munou</td>
+                    <td>Asphyxia</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fairy Tail</th>
+                    <td>Snow Fairy</td>
+                    <td>S.O.W. Sense of Wonder</td>
+                    <td>ft.</td>
+                </tr>
+                <tr>
+                    <th scope="row">JoJo’s Bizarre Adventure</th>
+                    <td>JoJo Sono Chi no Sadame</td>
+                    <td>Bloody Stream</td>
+                    <td>Stand Proud</td>
+                </tr>
+                <tr>
+                    <th scope="row">Haikyuu!!</th>
+                    <td>Imagination</td>
+                    <td>Ah Yeah!!</td>
+                    <td>I’m a Believer</td>
+                </tr>
+                <tr>
+                    <th scope="row">Demon Slayer</th>
+                    <td>Gurenge</td>
+                    <td>Zankyou Zanka</td>
+                    <td>Kizuna no Kiseki</td>
+                </tr>
+                <tr>
+                    <th scope="row">Gintama</th>
+                    <td>Pray</td>
+                    <td>Tōi Nioi</td>
+                    <td>Gin-iro no Sora</td>
+                </tr>
+                <tr>
+                    <th scope="row">Black Clover</th>
+                    <td>Haruka Mirai</td>
+                    <td>Paint it Black</td>
+                    <td>Black Rover</td>
+                </tr>
+                <tr>
+                    <th scope="row">Re:Zero</th>
+                    <td>Redo</td>
+                    <td>Paradisus-Paradoxum</td>
+                    <td>Realize</td>
+                </tr>
+                <tr>
+                    <th scope="row">Nanatsu no Taizai</th>
+                    <td>Netsujou no Spectrum</td>
+                    <td>Seven Deadly Sins</td>
+                    <td>Classroom</td>
+                </tr>
+                <tr>
+                    <th scope="row">Jujutsu Kaisen</th>
+                    <td>Kaikai Kitan</td>
+                    <td>VIVID VICE</td>
+                    <td>SPECIALZ</td>
+                </tr>
+                <tr>
+                    <th scope="row">Psycho-Pass</th>
+                    <td>Abnormalize</td>
+                    <td>Out of Control</td>
+                    <td>Enigmatic Feeling</td>
+                </tr>
+                <tr>
+                    <th scope="row">Kuroko no Basket</th>
+                    <td>Can Do</td>
+                    <td>RIMFIRE</td>
+                    <td>Hengen Jizai no Magical Star</td>
+                </tr>
+                <tr>
+                    <th scope="row">Mob Psycho 100</th>
+                    <td>99</td>
+                    <td>99.9</td>
+                    <td>1</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+    </div>
+
+    <div id="informacao">
+        <section>
+            <article>
+                <h1>Openings de Animes</h1>
+        
+                <p>Openings de animes (ou "aberturas") são sequências de vídeo com música que aparecem no início de cada episódio de um anime. Elas servem como introdução audiovisual, geralmente com:</p>
+        
+                <h2>🎵 O que compõe uma opening?</h2>
+                <h3>Música-tema</h3>
+
+                <p>Uma música original ou licenciada — frequentemente feita por artistas de J-pop, rock ou até metal — que define o tom emocional e estético da temporada.</p>
+        
+                <h2>Animação própria</h2>
+                <p>Sequência animada que mostra os personagens principais, ambientes importantes, e muitas vezes sugere eventos futuros da história (às vezes com spoilers sutis).</p>
+        
+                <h2>Créditos iniciais</h2>
+                <p>Nome do anime, estúdio, diretor, compositor, dubladores etc.</p>
+        
+                <h2>🌀 Funções da opening</h2>
+                
+                <p>Criar expectativa emocional no público.</p>
+        
+                <p>Destacar tema, atmosfera e gênero da temporada (ação, drama, romance, etc.).</p>
+        
+                <p>Servir como marca registrada — fãs frequentemente associam animes às suas openings.</p>
+        
+                <p>Atualizar a abertura conforme arcos da história mudam.</p>
+                
+            </article>
+            <aside>
+                <p id="paside">Curiosidades</p>
+                <h4>📌 Exemplo famoso:</h4>
+
+                <p>No anime "Naruto", a música "Haruka Kanata" da banda Asian Kung-Fu Generation é uma das openings mais lembradas pelos fãs por transmitir o clima de luta e crescimento dos personagens.</p>
+        
+                <h4>❓ Opening vs. Ending</h4>
+                <p>Opening: início do episódio (energética, animada).</p>
+        
+                <p>Ending: final do episódio (geralmente mais suave, reflexiva).</p>
+
+            </aside>
+        </section>
+
+            <footer>Redes Sociais: X | Instagran | Email</footer>
+    </div>
+
+</body>
+</html>
