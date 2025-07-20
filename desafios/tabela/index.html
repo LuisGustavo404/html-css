@@ -9,6 +9,7 @@
             font-family: Arial, Helvetica, sans-serif;
             padding: 0px;
             margin: 0px;
+            background-image: linear-gradient(to bottom, rgb(129, 255, 26), yellow, blue, rgb(255, 255, 255));
         }
 
         table{
@@ -23,21 +24,22 @@
         }
 
         caption{
-            background-color: grey;
+            background-color: rgb(0, 110, 255);
             padding: 10px;
             color: white;
             font-size: 1.4em;
             font-weight: bolder;
+            margin-bottom: -2px;
         }
 
         tr:nth-child(even){
-            background-color: lightgray;
+            background-color: rgb(250, 255, 230);
         }
 
         #fixo{
             position: sticky;
             top: 0px;
-            background-color: grey;
+            color: white;
         }
 
         #container{
@@ -52,6 +54,7 @@
             padding: 15px;
             padding-bottom: 30px;
             border-radius: 10px;
+            box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.322);
             
         }
 
@@ -115,6 +118,39 @@
             font-weight: bolder;
         }
 
+        tr:nth-child(odd){
+            background-color: rgb(167, 255, 240);
+        }
+
+        #trh{
+            background-color: rgb(0, 110, 255);
+        }
+
+        table a{
+            color: black;
+            text-decoration: none;
+        } 
+
+        table a:hover{
+            text-decoration: underline;
+        }
+
+        table a:active{
+            color: rgb(255, 0, 221);
+        }
+
+        footer > a{
+            color: white;
+            text-decoration: none;
+        }
+
+        footer > a:hover{
+            text-decoration: underline;
+        }
+
+        footer > a:active{
+            color: rgb(0, 255, 213);
+        }
 
     </style>
 </head>
@@ -126,7 +162,7 @@
             </caption>
 
             <thead id="fixo">
-                <tr>
+                <tr id="trh">
                     <th scope="col">Animes</th>
                     <th scope="col">Opening 01</th>
                     <th scope="col">Opening 02</th>
@@ -137,123 +173,123 @@
             <tbody>
                 <tr>
                     <th scope="row">Naruto</th>
-                    <td>R★O★C★K★S</td>
-                    <td>Haruka Kanata</td>
-                    <td>Kanashimi wo Yasashisa ni</td>
+                    <td><a href="#">R★O★C★K★S</a></td>
+                    <td><a href="#">Haruka Kanata</a></td>
+                    <td><a href="#">Kanashimi wo Yasashisa ni</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Bleach</th>
-                    <td>Asterisk</td>
-                    <td>D-tecnoLife</td>
-                    <td>Ichirin no Hana</td>
+                    <td><a href="#">Asterisk</a></td>
+                    <td><a href="#">D-tecnoLife</a></td>
+                    <td><a href="#">Ichirin no Hana</a></td>
                 </tr>
                 <tr>
                     <th scope="row">One Piece</th>
-                    <td>We Are!</td>
-                    <td>Believe</td>
-                    <td>Hikari e</td>
+                    <td><a href="#">We Are!</a></td>
+                    <td><a href="#">Believe</a></td>
+                    <td><a href="#">Hikari e</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Attack on Titan</th>
-                    <td>Guren no Yumiya</td>
-                    <td>Jiyuu no Tsubasa</td>
-                    <td>Shinzou wo Sasageyo!</td>
+                    <td><a href="#">Guren no Yumiya</a></td>
+                    <td><a href="#">Jiyuu no Tsubasa</a></td>
+                    <td><a href="#">Shinzou wo Sasageyo!</a></td>
                 </tr>
                 <tr>
                     <th scope="row">My Hero Academia</th>
-                    <td>The Day</td>
-                    <td>Peace Sign</td>
-                    <td>Sora ni Utaeba</td>
+                    <td><a href="#">The Day</a></td>
+                    <td><a href="#">Peace Sign</a></td>
+                    <td><a href="#">Sora ni Utaeba</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Fullmetal Alchemist: Brotherhood</th>
-                    <td>Again</td>
-                    <td>Hologram</td>
-                    <td>Golden Time Lover</td>
+                    <td><a href="#">Again</a></td>
+                    <td><a href="#">Hologram</a></td>
+                    <td><a href="#">Golden Time Lover</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Sword Art Online</th>
-                    <td>Crossing Field</td>
-                    <td>Innocence</td>
-                    <td>Ignite</td>
+                    <td><a href="#">Crossing Field</a></td>
+                    <td><a href="#">Innocence</a></td>
+                    <td><a href="#">Ignite</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Tokyo Ghoul</th>
-                    <td>Unravel</td>
-                    <td>Munou</td>
-                    <td>Asphyxia</td>
+                    <td><a href="#">Unravel</a></td>
+                    <td><a href="#">Munou</a></td>
+                    <td><a href="#">Asphyxia</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Fairy Tail</th>
-                    <td>Snow Fairy</td>
-                    <td>S.O.W. Sense of Wonder</td>
-                    <td>ft.</td>
+                    <td><a href="#">Snow Fairy</a></td>
+                    <td><a href="#">S.O.W. Sense of Wonder</a></td>
+                    <td><a href="#">ft.</a></td>
                 </tr>
                 <tr>
                     <th scope="row">JoJo’s Bizarre Adventure</th>
-                    <td>JoJo Sono Chi no Sadame</td>
-                    <td>Bloody Stream</td>
-                    <td>Stand Proud</td>
+                    <td><a href="#">JoJo Sono Chi no Sadame</a></td>
+                    <td><a href="#">Bloody Stream</a></td>
+                    <td><a href="#">Stand Proud</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Haikyuu!!</th>
-                    <td>Imagination</td>
-                    <td>Ah Yeah!!</td>
-                    <td>I’m a Believer</td>
+                    <td><a href="#">Imagination</a></td>
+                    <td><a href="#">Ah Yeah!!</a></td>
+                    <td><a href="#">I’m a Believer</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Demon Slayer</th>
-                    <td>Gurenge</td>
-                    <td>Zankyou Zanka</td>
-                    <td>Kizuna no Kiseki</td>
+                    <td><a href="#">Gurenge</a></td>
+                    <td><a href="#">Zankyou Zanka</a></td>
+                    <td><a href="#">Kizuna no Kiseki</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Gintama</th>
-                    <td>Pray</td>
-                    <td>Tōi Nioi</td>
-                    <td>Gin-iro no Sora</td>
+                    <td><a href="#">Pray</a></td>
+                    <td><a href="#">Tōi Nioi</a></td>
+                    <td><a href="#">Gin-iro no Sora</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Black Clover</th>
-                    <td>Haruka Mirai</td>
-                    <td>Paint it Black</td>
-                    <td>Black Rover</td>
+                    <td><a href="#">Haruka Mirai</a></td>
+                    <td><a href="#">Paint it Black</a></td>
+                    <td><a href="#">Black Rover</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Re:Zero</th>
-                    <td>Redo</td>
-                    <td>Paradisus-Paradoxum</td>
-                    <td>Realize</td>
+                    <td><a href="#">Redo</a></td>
+                    <td><a href="#">Paradisus-Paradoxum</a></td>
+                    <td><a href="#">Realize</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Nanatsu no Taizai</th>
-                    <td>Netsujou no Spectrum</td>
-                    <td>Seven Deadly Sins</td>
-                    <td>Classroom</td>
+                    <td><a href="#">Netsujou no Spectrum</a></td>
+                    <td><a href="#">Seven Deadly Sins</a></td>
+                    <td><a href="#">Classroom</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Jujutsu Kaisen</th>
-                    <td>Kaikai Kitan</td>
-                    <td>VIVID VICE</td>
-                    <td>SPECIALZ</td>
+                    <td><a href="#">Kaikai Kitan</a></td>
+                    <td><a href="#">VIVID VICE</a></td>
+                    <td><a href="#">SPECIALZ</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Psycho-Pass</th>
-                    <td>Abnormalize</td>
-                    <td>Out of Control</td>
-                    <td>Enigmatic Feeling</td>
+                    <td><a href="#">Abnormalize</a></td>
+                    <td><a href="#">Out of Control</a></td>
+                    <td><a href="#">Enigmatic Feeling</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Kuroko no Basket</th>
-                    <td>Can Do</td>
-                    <td>RIMFIRE</td>
-                    <td>Hengen Jizai no Magical Star</td>
+                    <td><a href="#">Can Do</a></td>
+                    <td><a href="#">RIMFIRE</a></td>
+                    <td><a href="#">Hengen Jizai no Magical Star</a></td>
                 </tr>
                 <tr>
                     <th scope="row">Mob Psycho 100</th>
-                    <td>99</td>
-                    <td>99.9</td>
-                    <td>1</td>
+                    <td><a href="#">99</a></td>
+                    <td><a href="#">99.9</a></td>
+                    <td><a href="#">1</a></td>
                 </tr>
 
             </tbody>
@@ -304,7 +340,7 @@
             </aside>
         </section>
 
-            <footer>Redes Sociais: X | Instagran | Email</footer>
+            <footer>Redes Sociais: <a href="#">X</a> | <a href="#">Instagran</a> | <a href="#">Email</a></footer>
     </div>
 
 </body>
